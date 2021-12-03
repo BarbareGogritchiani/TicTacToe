@@ -237,6 +237,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
 
     }
     fun resetbtn(){
+        activePlayer = 1
         gau = 0
         jos = 0
         player1Points.text = "Player1: $gau"
